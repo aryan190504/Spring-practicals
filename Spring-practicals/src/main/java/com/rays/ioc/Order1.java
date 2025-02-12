@@ -11,7 +11,7 @@ public class Order1 {
 	}
 
 	// setter injection.....
-	public void setInventory() {
+	public void setInventory(Inventory inventory) {
 		this.inventory = inventory;
 	}
 

@@ -1,0 +1,10 @@
+package com.rays.autowire.byname;
+
+import com.rays.autowire.byconstructor.UserDao;
+
+public class UserDaoImpl implements UserDao {
+
+	public void add() {
+		System.out.println("add method..!!!");
+	}
+}
